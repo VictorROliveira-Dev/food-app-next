@@ -14,7 +14,7 @@ const Header = () => {
       <Button
         size="icon"
         variant="outline"
-        className="border-none bg-transparent"
+        className="border-none bg-transparent hover:bg-transparent"
       >
         <MenuIcon />
       </Button>
