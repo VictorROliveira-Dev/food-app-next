@@ -33,19 +33,19 @@ const RestaurantItem = ({ restaurant }: RestaurantItemProps) => {
       </div>
 
       <div>
-        <h3 className="text-sm font-bold">{restaurant.name}</h3>
+        <h3 className="text-base font-bold">{restaurant.name}</h3>
         <div className="flex gap-3">
           <div className="flex items-center gap-1">
-            <BikeIcon className="text-primary" size={14} />
-            <span className="text-xs text-muted-foreground">
+            <BikeIcon className="text-primary" size={16} />
+            <span className="text-sm font-medium text-muted-foreground">
               {Number(restaurant.deliveryFee) === 0
                 ? "Entrega grátis"
                 : formatCurrency(Number(restaurant.deliveryFee))}
             </span>
           </div>
           <div className="flex items-center gap-1">
-            <TimerIcon className="text-primary" size={14} />
-            <span className="text-xs text-muted-foreground">
+            <TimerIcon className="text-primary" size={16} />
+            <span className="text-sm font-medium text-muted-foreground">
               {restaurant.deliveryTimeMinutes} min
             </span>
           </div>

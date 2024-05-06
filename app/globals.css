@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  font-family: "Darker Grotesque", sans-serif;
-}
-
 :root {
   --background: 0 0% 96%;
   --foreground: 0 0% 20%;
