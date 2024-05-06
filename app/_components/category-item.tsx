@@ -15,7 +15,7 @@ const CategoryItem = ({ category }: CategoryItemProps) => {
         width={25}
       />
 
-      <span className="text-base font-black">{category.name}</span>
+      <span className="text-base font-medium">{category.name}</span>
     </div>
   );
 };

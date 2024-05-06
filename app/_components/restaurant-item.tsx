@@ -38,7 +38,7 @@ const RestaurantItem = ({ restaurant }: RestaurantItemProps) => {
         </div>
 
         <div>
-          <h3 className="text-base font-bold">{restaurant.name}</h3>
+          <h3 className="text-base font-medium">{restaurant.name}</h3>
           <div className="flex gap-3">
             <div className="flex items-center gap-1">
               <BikeIcon className="text-primary" size={16} />

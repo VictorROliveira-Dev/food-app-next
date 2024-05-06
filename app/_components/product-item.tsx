@@ -38,7 +38,7 @@ const ProductItem = ({ product }: ProductItemProps) => {
         </div>
 
         <div>
-          <h2 className="truncate text-sm font-bold">{product.name}</h2>
+          <h2 className="truncate text-sm font-medium">{product.name}</h2>
           <div className="flex items-center gap-1">
             <h3 className="font-bold">
               {formatCurrency(calculateProductTotalPrice(product))}
@@ -49,7 +49,7 @@ const ProductItem = ({ product }: ProductItemProps) => {
               </span>
             )}
           </div>
-          <span className="block text-sm font-bold text-muted-foreground">
+          <span className="block text-sm font-medium text-muted-foreground">
             {product.restaurant.name}
           </span>
         </div>
