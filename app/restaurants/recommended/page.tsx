@@ -8,8 +8,10 @@ const RecommendedRestaurants = async () => {
   return (
     <>
       <Header />
-      <div className="px-5">
-        <h2 className="py-6 text-2xl font-semibold">Restaurantes:</h2>
+      <div className="mb-6 px-5">
+        <h2 className="py-6 text-2xl font-semibold">
+          Restaurantes Recomendados:
+        </h2>
         <div className="flex w-full flex-col gap-6">
           {restaurants.map((restaurant) => (
             <RestaurantItem

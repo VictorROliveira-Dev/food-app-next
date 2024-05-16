@@ -18,7 +18,7 @@ const Home = async () => {
       },
     },
     take: 10,
-    // Incluindo a captura do restaurante dono de cada produto:
+    // Incluindo a captura do restaurante dono(nome do restaurante) de cada produto:
     include: {
       restaurant: {
         select: {
